@@ -21,7 +21,7 @@ constructor(x,y,height,angle) {
     rotate(angle);
     translate(this.body.position.x,this.body.position.y);
     strokeWeight(3);
-    stroke(black);
+    stroke("black");
     rectMode(CENTER);
     rect(x,y,20,height);
     pop();
